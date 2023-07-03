@@ -1,5 +1,5 @@
 function showDate(event) {
-  if (event.value.length > 0) {
+  if (event.target.value.length > 0) {
     let currentTime = moment()
       .tz(event.target.value)
       .format("dddd, MMMM D, YYYY h:mm A");
